@@ -1,0 +1,153 @@
+.sidebar-container {
+  margin-top: 90px;
+  height: 100vh;
+}
+.sidebar {
+  &.btn {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+  }
+
+  button {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    justify-self: center;
+    font-size: 18px;
+    padding-bottom: 30px;
+    span {
+      margin-left: 20px;
+    }
+  }
+}
+
+.sidebar-item {
+  margin-top: 20px;
+  display: flex;
+  font-size: 16px;
+  font-weight: "600";
+  color: #2d224c;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+.sidebar-item-label {
+  margin-left: 15px;
+}
+.sidebar-item-active {
+  margin-top: 20px;
+  background: #d9daf3;
+  border-radius: 4px;
+  color: #d4145a;
+  font-size: 16px;
+  font-weight: "600";
+  height: fit-content;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  padding: 4px 10px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  position: absolute;
+  bottom: 0;
+
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+  }
+  span {
+    margin-left: 15px;
+  }
+}
+.fc .fc-toolbar-title {
+  color: white;
+  
+}
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child) {
+  background-color: transparent;
+  border-width: 0;
+}
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child) {
+  background-color: transparent;
+  border-width: 0;
+}
+
+.fc .fc-toolbar {
+  display: flex;
+  justify-content: flex-start;
+}
+.fc .fc-button-primary:disabled {
+  content: "Today";
+  float: right;
+  background-color: white;
+  color: #2d224c;
+  padding: 1px 10px;
+  margin-top: 5px;
+}
+.fc-theme-standard td{
+  
+  background-color: white;
+  border-radius: 5px;
+  border-spacing: 10px;
+}
+.fc-theme-standard th{
+  border: 0px solid #2d224c;
+  background-color: transparent;
+  color:white;
+  border-radius: 5px;
+  border-spacing: 10px;
+  text-transform: uppercase;
+  font-family: 'poppins';
+  font-weight: '700';
+  font-size: 12;
+}
+.fc .fc-scrollgrid{
+  border:0;
+}
+.fc .fc-daygrid-day-top{
+  justify-content: center;
+  padding: 0px;
+  font-weight: '600';
+}
+
+
+.fc-col-header-cell {
+  border-spacing: 10px;
+}
+.fc-col-header-cell .fc-day .fc-day-sun {
+  margin: 10px;
+}
+.fc th, .fc td{
+  border-color: #2d224c;
+  border-width: 2px !important;
+  border-radius: 2px !important;
+}
+.fc td{
+a{
+  text-decoration: none;
+  color:black;
+  font-family: 'poppins';
+  font-weight: '700';
+  font-size: 10;
+}
+}
+.fc th{
+  a{
+    text-decoration: none;
+    color:white;
+    font-family: 'poppins';
+  font-weight: '700';
+  font-size: 12;
+  }
+}
